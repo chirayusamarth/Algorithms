@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
-
 public class Arrays2D {
-
 	/**
 	 * @param args
 	 */
@@ -40,8 +38,6 @@ public class Arrays2D {
 					max = sum[i][j];
 			}
 		}
-		System.out.println("Max: "+max);
-		
+		System.out.println("Max: "+max);	
 	}
-
 }
