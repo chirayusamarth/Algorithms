@@ -1,3 +1,3 @@
 # Algorithms
 
-Practice Repository containing common practice questions on Data Structures & Algorithms
+Practice Repository containing questions on Data Structures & Algorithms
