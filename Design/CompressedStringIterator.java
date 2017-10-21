@@ -25,6 +25,18 @@ iterator.next(); // return ' '
 
 */
 
+
+/*
+Since no precomputation is done, constant space is required in this case.
+
+The time required to perform next() operation is O(1)O(1).
+
+The time required for hasNext() operation is O(1)O(1).
+
+Since no precomputations are done, and hasNext() requires only O(1)O(1) time, this solution is advantageous if hasNext() operation is performed most of the times.
+
+This approach can be extended to include previous() and hasPrevious() operationsm, but this will require the use of some additional variables.
+*/
 public class StringIterator{
 	int i;
 	char ch;
