@@ -27,4 +27,24 @@ public class TwoSum{
 		}
 		return false;
 	}
+	
+	/**
+	public class FasterFindSum {
+	    Set<Integer> sums = new HashSet<>();
+	    List<Integer> nums = new ArrayList<>();
+
+	    // O(n)
+	    public void add(int input) {
+		for (int num : nums) {
+		     sums.add(input + num);
+		}
+		nums.add(input);
+	    }
+
+	    // O(1)
+	    public boolean find(int val) {
+		return sums.contains(val);
+	    }
+	}
+	**/
 }
